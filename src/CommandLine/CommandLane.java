@@ -15,7 +15,9 @@ public class CommandLane {
 		sc.close();
 		return entero;
 	}
+	
 	public double readDouble() {
+	//Angel que tal??
 		Scanner sc = new Scanner(System.in);
 		double decimal= sc.nextDouble();
 		sc.close();
